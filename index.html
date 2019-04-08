@@ -12,9 +12,23 @@
     </head>
     <body>
         <!--navbar-->
-        
+         <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#1">Home </a>
+                        <a class="link" href="#2">Profile </a>
+                        <a class="link" href="#3">About</a>
+                        <a class="link"href="https://www.instagram.com/urfuture26/"target="_blank">contact us </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!--section 1-->
-        <section class="section1">
+        <section class="section1"id="home"> 
             <img src="img/logo.png">
             <h1 class="judul">
             <strong> The Beginning </strong>
@@ -23,11 +37,11 @@
             </h2>
             </section>
             <!--section2--->
-            <section class="section2">
+            <section class="section2" id="Profil">
                 <div class="container">
                     <div class="row">
                     <div class="col-md-8 col-kiri">
-                    Semangat Beibeh
+                    Suatu pendidikan dapat dilalui dalam berbagai hal, bisa dari pendidikan yang kita terima di sekolah dan bisa diterima ketika berada di lingkungan kita
                     </div> 
                     <div class="col-md-4 col-kanan">
                         <img src="img/joker.png" width="150px">
@@ -36,21 +50,24 @@
                 </div>
         </section>
         <!---section3--->
-        <section class="section3">
+        <section class="section3" id="About">
             <div class="container">
                 <div class="row">
                     <div class="col col-kiri">
-                        a
+                        Be You
                     </div>
                     <div class="col">
-                        b
+                        Will You
                     </div>
                     <div class="col col-kiri">
-                        c
+                        Do You
                     </div>
                 </div>
             </div>
          </section>         
     </body>
-    
+    <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+        </script>
 </html> 

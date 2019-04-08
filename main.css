@@ -28,3 +28,15 @@ body,html{
 .col-kanan{
     background: #E8610C;
 }
+.section3{
+    min-height: 300px;
+    padding: 50px 0px;
+    background:  #ffffff;
+}
+.link{
+    padding: 10px 15px;
+    color: #000066;
+}
+.link:hover{
+    background: #E8610C;
+}
